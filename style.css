@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 70px;
+    background-color: white;
+}
+
+body {
+    background-color: rgb(245, 242, 242);
+}
+
+.main-box {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+#hr {
+    height: 3px;
+    background-color: rgb(245, 242, 242);
+    color: rgb(245, 242, 242);
+    border-width: 0;
+}
+
+#addtask-button {
+    background-color: rgb(67, 158, 238);
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    width: 75px;
+    height: 28px;
+    padding: 7px;
+    margin-left: 50px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#addsection-button {
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: black;
+    display: inline;
+    text-align: center;
+    width: 75px;
+    height: 28px;
+    padding: 7px;
+    margin-left: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+summary {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 55px;
+    margin-top: 23px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.hidden-true {
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: rgb(0, 191, 0);
+    border-style:solid;
+    border-width: thin;
+    color: rgb(0, 191, 0);
+    margin-top: 12px;
+    margin-left: 52px;
+    text-align: center;
+    display: inline-block;
+}
+
+.hidden-true-text {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20px;
+    height: 12px;
+    margin-top: 16px;
+    margin-left: 12px;
+    display: inline;
+}
+
+.hidden-false {
+    font-size: 14px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: red;
+    color: red;
+    border-style:solid;
+    border-width: thin;
+    margin-top: 12px;
+    margin-left: 52px;
+    text-align: center;
+    display: inline-block;
+}
+
+.editorial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: white;
+    background-color: rgb(67, 158, 238);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 52px;
+    height: 20px;
+    padding: 5px;
+}
+
+.q1-goals {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: white;
+    background-color: rgb(171, 76, 171);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 52px;
+    height: 20px;
+    padding: 5px;
+}
+
+.recruiting {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: white;
+    background-color: rgb(37, 197, 136);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 56px;
+    height: 20px;
+    padding: 5px;
+}
+
+.mobile {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: white;
+    background-color: rgb(237, 155, 39);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    padding: 5px;
+}
+
+.website {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: white;
+    background-color: rgb(243, 81, 243);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    padding: 5px;
+}
+
+.sales {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: white;
+    background-color: rgb(124, 203, 113);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 44px;
+    height: 20px;
+    padding: 5px;
+}
